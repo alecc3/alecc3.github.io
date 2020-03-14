@@ -5,7 +5,6 @@
   font-weight: normal;
   font-style: normal; }
 
-
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -20,6 +19,17 @@ text {
   width: 300px;
   padding: 50px;
   margin: 20px;
+}
+
+.sphoto {
+  width: 60%;
+  height: 60%;
+}
+
+.mphoto {
+  width: 60%;
+  height: 60%;
+  padding-bottom: 50px;
 }
 
 pColor{
@@ -83,11 +93,19 @@ cap{
   
 }
 
+h7 {
+  color: white;
+  font-family: serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: white;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
-  margin: 0 0 30px 0; }
+  margin: 0 0 30px 0;
+}
 
 figure {
   margin-bottom: 2.5em;
@@ -1013,20 +1031,18 @@ body.offcanvas {
 
 .project {
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  position: relative;
   height: 300px;
-  width: 100%;
+  max-width: 100%;
   display: block;
-  margin-bottom: 30px; }
+  }
   .project .desc {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: black;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;

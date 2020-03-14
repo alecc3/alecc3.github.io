@@ -25,11 +25,18 @@ text {
   width: 60%;
   height: 60%;
 }
+.sphoto:hover{
+  opacity: 0.5;
+}
+
 
 .mphoto {
   width: 60%;
   height: 60%;
   padding-bottom: 50px;
+}
+.mphoto:hover{
+  opacity: 0.5;
 }
 
 pColor{
